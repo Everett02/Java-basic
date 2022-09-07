@@ -1,0 +1,41 @@
+package com.newbee.ui.user;
+
+public class User {
+    private String username;
+    private String password;
+
+
+    public User() {
+    }
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    /**
+     * @return username
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    /**
+     * @return password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
